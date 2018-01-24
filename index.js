@@ -6,17 +6,18 @@ function subtract (a,b) {
   return (a-b);
 }
 
-function add (a,b) {
-  return (a+b);
-}
-
-function add (a,b) {
-  return (a+b);
-}
 function multiply (a,b) {
   return (a*b);
 }
 
 function divide (a,b) {
   return (a/b);
+}
+
+function inc(n)(a) {
+  return (a++);
+}
+
+function dec(n)(a) {
+  return (a--);
 }
